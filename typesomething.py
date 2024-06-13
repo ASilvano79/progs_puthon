@@ -1,19 +1,3 @@
-#### Mostrar logo
-#### Frases usadas:
-#### Bem vindo ao Jogo de Descobrir um número
-#### Eu estou pensando em um número entre 1 e 100
-#### Grave o valor do número randomico escolhido 
-#### Escolha um nível de dificuldade. Digite 'easy' ou 'hard'
-#### Mostre a quantidade de tentativas disponiveis
-#### Frase "Você tem X tentativas para acertar o número"
-#### Pergunte: "Chute um número: "
-#### Se acertou o numero randomico "Você é a propria Mãe Dinah. Acertou o número" entre outras frases
-#### Se errou faça a comparação entre o numero chutado e o numero randomico e:
-#### Se maior "Você chutou um número maior" e "Chute de novo" e mostre a quantidade de tentativas
-#### Se menor "Você chutou um número menor" e "Chute de novo" e mostre a quantidade de tentativas
-#### E pergunte novamente "Chute um número"
-
-
 import random
 from typesomething_logo import logo
 from replit import clear
@@ -48,7 +32,7 @@ def game():
     def analisa_result(chute):
         global tentativas
         if chute == random_number:
-            print("Você é a propria Mãe Dinah. Acertou o número.")
+            print(f"Você é a propria Mãe Dinah. Acertou o número: {chute}")
             tentativas = 0
         elif chute > random_number:
             print("Você chutou um número MAIOR!")
