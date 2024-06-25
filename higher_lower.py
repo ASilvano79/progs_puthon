@@ -1,9 +1,3 @@
-# Se acertar:
-# A opção B vira A e seleciona uma nova opção B
-# Mostra a mensagem "Voce está certo", soma a quantidade de acertos e mostra
-# Se errar:
-# Mostra a mensagem "Voce errou", mostra a quantidade de acertos, encerra o jogo
-
 from higher_lower_data import data
 from higher_lower_art import logo, vs
 import random
